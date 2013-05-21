@@ -89,4 +89,8 @@ class HomeController extends AppController {
 								array('Event.id' => $id));
 		$this->redirect(array('controller' => 'Home', 'action' => 'HomePage'));
 	}
+	
+	public function printDocument(){
+	
+	}
 }

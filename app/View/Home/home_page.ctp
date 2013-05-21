@@ -5,9 +5,7 @@
 		<div class="span12">
 			<div class="span4 well">
 			<?php 
-			echo $this->Html->link('Project',array('controller' => 'Project', 'action' => 'listProject'),
-															array('class' => 'btn'));
-				
+			echo $this->Html->link('Print Document',array('controller' => 'Home', 'action' => 'printDocument'), array('class' => 'btn btn-large btn-primary'));
 			?>
 			</div>
 			<!-- CODE FOR GENERATED FEEDS -->
